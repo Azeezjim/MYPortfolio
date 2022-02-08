@@ -29,8 +29,8 @@ export const MainImage = styled.img`
 
 export const List = styled.ul`
   list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: bluck;
+  // grid-template-columns: repeat(3, 3fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -79,6 +79,12 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   margin-bottom: 4px;
 }
+`
+export const IconsClasses = styled.div`
+  display: inline;
+  size: 2rem;
+  margin-top: -2px;
+  margin-Left: 2px;
 `
 
 export const ListParagraph = styled.p`

@@ -7,23 +7,10 @@ import { TimeLineData } from '../../constants/constants';
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
-
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
-
-  //   if (carouselRef.current) {
-  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
-  //     scroll(carouselRef.current, scrollLeft);
-  //   }
-  // }
-
+   
   // const handleScroll = () => {
   //   if (carouselRef.current) {
   //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
@@ -43,10 +30,48 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>About me</SectionTitle>
+      <SectionText>
+        An engrosing journey that kickstarted early last year (2021) has never had an halt. 
+        A journey which has inspired my corent hight in bocoming a Web developer and 
+        stimulated my ever accelerating desire to improve in my self.
+      </SectionText>
+      <CarouselContainer ref={carouselRef }>
+      
+        <>
+        
+          {TimeLineData.map((item, index) => (
+            <CarouselMobileScrollNode key={index} final={TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem 
+                index={index} 
+                id={`carousel__item-${index}`}
+                activ={activeItem}
+                onCLick={(e)=> handleClick(e, index)}
+              >
+                <CarouselItemTitle>
+                  {item.year}
+                </CarouselItemTitle>
+
+              </CarouselItem>
+            </CarouselMobileScrollNode>
+        ))}
+      </>
+      </CarouselContainer>
+      <CarouselButtons>
+        {TimeLineData.map((item, index) => (
+          <CarouselButton
+          key={active}
+          index={index}
+          active={activeItem}
+          onClick={(e)=> handleClick(e, index)}
+          type="button">
+            <CarouselButtonDot active={activeItem} />
+          </CarouselButton>
+        ))}
+      </CarouselButtons>
+    </Section>
   );
-};
+}; 
 
 export default Timeline;
