@@ -35,7 +35,7 @@ const Timeline = () => {
       <SectionText>
         An engrosing journey that kickstarted early last year (2021) has never had an halt. 
         A journey which has inspired my corent hight in bocoming a Web developer and 
-        stimulated my ever accelerating desire to improve in my self.
+        stimulated my ever accelerating desire to improve in my self..
       </SectionText>
       <CarouselContainer ref={carouselRef }>
       
