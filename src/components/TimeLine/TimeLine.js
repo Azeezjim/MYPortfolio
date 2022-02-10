@@ -10,24 +10,25 @@ const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
-   
-  // const handleScroll = () => {
-  //   if (carouselRef.current) {
-  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+  
+  const handleScroll = () => {
+    if (carouselRef.current) {
+      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
-  //     setActiveItem(index);
-  //   }
-  // }
+      setActiveItem(index);
+    }
+  }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     scroll(carouselRef.current, 0);
-  //   }
+//  snap back to beginning of scroll when window is resized
+//  avoids a bug where content is covered up if coming from smaller screen
 
-  //   window.addEventListener('resize', handleResize);
-  // }, []);
+useEffect(() => {
+  const handleResize = () => {
+    scroll(carouselRef.current, 0);
+  }
+
+  window.addEventListener('resize', handleResize);
+}, []);
 
   return (
     <Section id="about">
@@ -37,7 +38,7 @@ const Timeline = () => {
         A journey which has inspired my corent hight in bocoming a Web developer and 
         stimulated my ever accelerating desire to improve in my self..
       </SectionText>
-      <CarouselContainer ref={carouselRef }>
+      <CarouselContainer ref={carouselRef } onScrool={handleScroll}>
       
         <>
         
@@ -52,6 +53,7 @@ const Timeline = () => {
                 <CarouselItemTitle>
                   {item.year}
                 </CarouselItemTitle>
+                <CarouselItemText>{item.text}</CarouselItemText>
 
               </CarouselItem>
             </CarouselMobileScrollNode>
@@ -59,9 +61,9 @@ const Timeline = () => {
       </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => (
+        {TimeLineData.map((item,   index) => (
           <CarouselButton
-          key={active}
+          key={index}
           index={index}
           active={activeItem}
           onClick={(e)=> handleClick(e, index)}
@@ -70,6 +72,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
+      <SectionDivider />
     </Section>
   );
 }; 
