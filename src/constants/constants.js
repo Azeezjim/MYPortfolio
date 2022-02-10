@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: "jun - July", text: 'I proceeded with learning JavaScript', },
   { year: "August", text: 'Acquired the knowledge on basic git commands and Ttailwind', },
   { year: "Sep - Nov", text: 'I took the bold step to learn React js', },
-  { year: "From Dec", text: 'I implimentented all accquired knowledge in building a Netflix clone React js baswed project', },
+  { year: "From Dec", text: 'I implimentented all acquired knowledge in building a Netflix clone React js baswed project', },
 ];
