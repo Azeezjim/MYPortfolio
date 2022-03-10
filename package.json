@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "jim": "next dev -p 3010",
     "build": "next build && next export",
     "start": "next start"
   },

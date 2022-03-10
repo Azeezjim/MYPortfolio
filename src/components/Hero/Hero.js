@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Currently a 400levle Computer Science student in The University of Jos.<br/>
         I'm a frontend developer, with HTML/CSS, JavaScript and React Js being my <br/>
-        specialties, my aspiration to be a frontend and blockchain developer remains <br/>
+        specialties, my aspiration to be a fullstack and blockchain developer remains <br/>
         evidently unabridged.
       </SectionText>
       <Button onClick={() => window.location="azeexjim@gmail.com"}>Learn More</Button>
