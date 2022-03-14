@@ -50,7 +50,7 @@ const Header = () =>  (
       <SocialIcons href="https://twitter.com/GarubaAbdulAz13?s=09 ">
         <AiFillTwitterSquare size="3rem" />
       </SocialIcons>
-      <SocialIcons href="azeexjim@gmail.com "> 
+      <SocialIcons href="https://mail.google.com/mail/u/0/#inbo"> 
         <AiFillMail size="3rem" />
       </SocialIcons>
     </Div3>

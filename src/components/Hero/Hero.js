@@ -17,7 +17,7 @@ const Hero = (props) => (
         specialties, my aspiration to be a fullstack and blockchain developer remains <br/>
         evidently unabridged.
       </SectionText>
-      <Button onClick={() => window.location="azeexjim@gmail.com"}>Learn More</Button>
+      <Button onClick={() => window.location="https://mail.google.com/mail/u/0/#inbo"}>Learn More</Button>
     </LeftSection>
   </Section>
 );

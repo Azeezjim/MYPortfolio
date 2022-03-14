@@ -15,14 +15,14 @@ const Footer = () => {
   
         <LinkColumn>
         <LinkTitle>Mail</LinkTitle>
-          <LinkItem href='maleto:azeexjim@gmale.com'>azeexjim@gmail.com</LinkItem>
+          <LinkItem href='https://mail.google.com/mail/u/0/#inbo'>azeexjim@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList> 
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan><i> A lot of hard work is hiddeen behind great things.</i></Slogan>
         </CompanyContainer>
-        <SocialIcons href="azeexjim@gmail.com ">
+        <SocialIcons href="https://mail.google.com/mail/u/0/#inbo">
           <AiFillMail size="3rem" />
         </SocialIcons>
 
