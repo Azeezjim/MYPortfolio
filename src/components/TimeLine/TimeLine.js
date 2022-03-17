@@ -34,12 +34,13 @@ useEffect(() => {
     <Section id="about">
       <SectionTitle>About me</SectionTitle>
       <SectionText>
-        &nbsp; Garuba Abdul Azeez is a Front-end web developer inspired by the appetency to mske a bold 
-        mark in the world. An engrossing journey that kickstarted the final third of 2020 has never had an halt. 
-        A journey which has inspired my corent hight in bocoming a Web developer and 
-        stimulated my ever accelerating desire to improve in myself. <br />
-        &nbsp; During this period, i intern with very well known tech bodies. A process that has yielded my
-        smooth and consistent growth, and has consistently influenced my believe achieving my dreams.
+        &nbsp; Garuba Abdul Azeez is a Front-end web developer who is driven by the desire to leave an indelible 
+        mark on the world. An engrossing journey that began in the final third of 2020 has never come to a halt. 
+        A journey that has inspired my current position as a Web developer and fueled my ever-increasing desire 
+        to improve myself. <br />
+        &nbsp; During this time, I work as an intern for a number of well-known technology companies. A process 
+        that has resulted in my smooth and consistent improvement, as well as influencing my belief in my ability 
+        to achieve my goals.
       </SectionText>
       <CarouselContainer ref={carouselRef } onScrool={handleScroll}>
       
