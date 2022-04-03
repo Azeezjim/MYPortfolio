@@ -21,7 +21,7 @@ const projectsDemo = [
 const Projects = () => (
   <Section nopading id='project'>
     <SectionDivider />
-    <SectionTitle>Projects </SectionTitle>
+    <SectionTitle>Projects</SectionTitle>
     <GridContainer>
       {projects.map (({id, image, title, description, source, tags, visit}) => (
         <BlogCard key={id}>
@@ -41,6 +41,7 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={visit}>Code</ExternalLinks>
+            <ExternalLinks href={source}>Site</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))} 
