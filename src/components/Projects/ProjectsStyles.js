@@ -35,6 +35,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-top: 2px;
 
 `;
 
@@ -75,6 +76,7 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
+    margin-y: 1rem;
   
 }
 `;
