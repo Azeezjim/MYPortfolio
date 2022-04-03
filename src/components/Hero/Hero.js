@@ -25,7 +25,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         onClick={() =>
-          (window.location = "https://drive.google.com/drive/my-drive")
+          (window.location = "https://drive.google.com/drive/folders/1mVSG96HbJKMO2ULP8XtiUt5qZpC7Qa0j")
         }
       >
         Learn More
