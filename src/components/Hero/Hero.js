@@ -20,7 +20,7 @@ const Hero = (props) => (
         &nbsp;  Currently in my fourth and final year as a Computer Scientist in The
         University of Jos, Nigeria. I'm a frontend developer, with HTML/CSS,
         JavaScript React Js, typeScript, and Next js being my specialties, my
-        aspiration to be a full-stack and blockchain developer remains evidently
+        aspiration to be a full-stack and mobile developer remains evidently
         unabridged.
       </SectionText>
       <Button

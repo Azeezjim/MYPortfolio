@@ -20,7 +20,8 @@ const Footer = () => {
       </LinkList> 
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan><i> A lot of hard work is hiddeen behind great things.</i></Slogan>
+          <Slogan><i> "Success is not final, failure is not fatal: it is the courage to continue 
+            that counts." - Winston Churchill</i></Slogan>
         </CompanyContainer>
         <SocialIcons href="https://mail.google.com/mail/u/0/#inbo">
           <AiFillMail size="3rem" />

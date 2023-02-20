@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: "August - Nov", text: 'Started my journey as a web developerm with HTMl/CSS.', },
-  { year: "Dec - March", text: 'I proceeded with learning JavaScript.', },
-  { year: "April - May", text: 'Acquired the knowledge on basic git commands and Ttailwind.', },
-  { year: "Jun - August", text: 'I took the bold step to learn React js.', },
+  { year: "Aug - Nov", text: 'Started my journey as a web developerm with HTMl/CSS.', },
+  { year: "Dec - Mar", text: 'I proceeded with learning JavaScript.', },
+  { year: "Apr - May", text: 'Acquired the knowledge on basic git commands and Ttailwind.', },
+  { year: "Jun - Aug", text: 'I took the bold step to learn React js.', },
   { year: "From Dec", text: 'I implimentented all acquired knowledge in building a Netflix clone React js baswed project.', },
 ];
