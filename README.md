@@ -50,7 +50,6 @@ Then, open http://localhost:3000 in your browser to see the website.
 Contributing
 Contributions are welcome! Feel free to submit a pull request or create an issue if you find a bug or have a feature request.
 
-
 Contact
 If you have any questions or feedback, feel free to contact me at azeexjim@gmail.com.
 
