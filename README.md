@@ -1,15 +1,15 @@
-Sure, I can help you create a README for your portfolio repository built in Next.js. Here is an example template you can use:
+'/images/Dashboard.png
 
-Portfolio
+Portfolio 
 Welcome to my portfolio repository built in Next.js! This repository contains the source code for my personal website, where I showcase my projects, skills, and experiences as a developer. You can visit the live site at https://codebit-portfolio-8bs9vcsdl-azeezjim.vercel.app/.
 
-Table Of Contents
+Table of Contents
 Description
 Technologies Used
 Installation
 Usage
 Contributing
-
+License
 Contact
 Description
 This repository contains the source code for my personal portfolio website. The website showcases my work, skills, and experiences as a developer. The website is built using Next.js, which is a React framework for building server-side rendered websites.
@@ -50,8 +50,10 @@ Then, open http://localhost:3000 in your browser to see the website.
 Contributing
 Contributions are welcome! Feel free to submit a pull request or create an issue if you find a bug or have a feature request.
 
+License
+This project is licensed under the MIT license.
+
 Contact
-If you have any questions or feedback, feel free to contact me at azeexjim@gmail.com.
+If you have any questions or feedback, feel free to contact me at [your-email-address].
 
-
-
+Dashboard
