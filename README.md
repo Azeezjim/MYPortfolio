@@ -1,6 +1,58 @@
-## Personal Portfolio
+Sure, I can help you create a README for your portfolio repository built in Next.js. Here is an example template you can use:
 
-![Portfolio Website]('/images/my portfolio.png)
-This is my personal website, where you may learn more about me, my development, and my specific skills.
+Portfolio
+Welcome to my portfolio repository built in Next.js! This repository contains the source code for my personal website, where I showcase my projects, skills, and experiences as a developer. You can visit the live site at https://codebit-portfolio-8bs9vcsdl-azeezjim.vercel.app/.
 
-Stack
+Table Of Contents
+Description
+Technologies Used
+Installation
+Usage
+Contributing
+
+Contact
+Description
+This repository contains the source code for my personal portfolio website. The website showcases my work, skills, and experiences as a developer. The website is built using Next.js, which is a React framework for building server-side rendered websites.
+
+Technologies Used
+Next.js
+React
+Styled Components
+ESLint
+Installation
+To install the dependencies, run the following command:
+
+bash
+Copy code
+npm install
+Usage
+To start the development server, run the following command:
+
+bash
+Copy code
+npm run dev
+Then, open http://localhost:3000 in your browser to see the website.
+
+To build the production-ready website, run the following command:
+
+bash
+Copy code
+npm run build
+This will generate the optimized production build in the .next directory.
+
+To start the production server, run the following command:
+
+bash
+Copy code
+npm run start
+Then, open http://localhost:3000 in your browser to see the website.
+
+Contributing
+Contributions are welcome! Feel free to submit a pull request or create an issue if you find a bug or have a feature request.
+
+
+Contact
+If you have any questions or feedback, feel free to contact me at azeexjim@gmail.com.
+
+
+
