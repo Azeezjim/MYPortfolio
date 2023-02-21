@@ -1,6 +1,5 @@
 '/images/Dashboard.png
 
-
 Portfolio 
 Welcome to my portfolio repository built in Next.js! This repository contains the source code for my personal website, where I showcase my projects, skills, and experiences as a developer. You can visit the live site at https://codebit-portfolio-8bs9vcsdl-azeezjim.vercel.app/.
 
@@ -55,5 +54,5 @@ License
 This project is licensed under the MIT license.
 
 Contact
-If you have any questions or feedback, feel free to contact me at [your-email-address].
+If you have any questions or feedback, feel free to contact me at azeexjim@gmail.com.
 
